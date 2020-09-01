@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
-    <h3>Click the button to start the game!</h3>
-    <button id="button">Start</button>
-    <div id="quote"></div>
+    <p>
+      <span id="title">Random Levy Quote!</span>
+    </p>
   </header>
+  <button id="button">Tell me Levy</button>
   <section>
-
+    <i class="fa fa-quote-left"></i>
+    <span id="quote"></span>
+    <i class="fa fa-quote-right"></i>
   </section>
-  <script src="./db.js"></script>
   <script src="./index.js"></script>
 </body>
 </html>
