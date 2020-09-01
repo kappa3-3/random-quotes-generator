@@ -1,0 +1,20 @@
+{
+  "name": "quotes",
+  "version": "1.0.0",
+  "description": "random quote generator",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kappa3-3/random-quotes-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kappa3-3/random-quotes-generator/issues"
+  },
+  "homepage": "https://github.com/kappa3-3/random-quotes-generator#readme"
+}
