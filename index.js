@@ -70,7 +70,8 @@ const quotes = [
 
 
 function generateRandomQuote (quotes) {
-  const idToShow = Math.floor(Math.random() * 10);
+  const idToShow = Math.ceil(Math.random() * 13);
+  console.log(idToShow)
   const { quote } = quotes.find(q => q.id === idToShow )
   const container = document.getElementById('quote')
   container.innerHTML= quote;
