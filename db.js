@@ -1,4 +1,4 @@
-const quotes = [
+export const quotes = [
   { 
     id: 1,
     name: 'Levy',
@@ -54,6 +54,9 @@ const quotes = [
     name: 'Levy',
     quote: 'Did you completely break Kasia?'
   },
+  { 
+    id: 12,
+    name: 'Levy',
+    quote: '... and complete silence'
+  },
 ];
-
-module.exports.quotes = quotes;

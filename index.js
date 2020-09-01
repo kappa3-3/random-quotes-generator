@@ -1,9 +1,11 @@
-const { quotes } = require('./db');
+import quotes from './db';
+const button = document.getElementById('button');
 
 function generateRandomQuote (quotes) {
   const idToShow = Math.floor(Math.random() * 10);
   const { quote } = quotes.find(q => q.id === idToShow )
-  console.log(quote);
+  const container = document.getElementById('quote')
+  container.innerHTML= quote;
 }
 
-generateRandomQuote(quotes);
+button.addEventListener('click', () => generateRandomQuote(quotes));
