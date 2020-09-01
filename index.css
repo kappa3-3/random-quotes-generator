@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
     display: flex;
@@ -11,12 +12,20 @@ body {
 #quote {
     color: #ffffff;
     font-size: 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#quote-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.2em 0.3em;
 }
 
 .fa::before {
     color: #ffffff;
     text-align: top;
-    font-size: 2em;
+    height: 5em;
+    font-size: 0.7em;
 }
 
 section {
@@ -26,6 +35,7 @@ section {
 }
 
 #button {
+    font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 1em;
     padding: .7em;
